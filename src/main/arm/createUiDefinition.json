@@ -62,6 +62,23 @@
                 "visible": true
             },
             {
+                "name": "legalAcceptSection",
+                "type": "Microsoft.Common.Section",
+                "label": "Oracle Technology Network License Agreement",
+                "elements": [
+                	{
+                        "name": "legalAccept",
+                        "type": "Microsoft.Common.CheckBox",
+                        "label": "I reviewed and accept the  <a href=\"https://www.oracle.com/in/downloads/licenses/javase-license1.html\"> Oracle Technology Network License Agreement for Oracle Java SE </a> and <a href=\"https://www.oracle.com/downloads/licenses/standard-license.html\">Oracle Technology Network License Agreement.</a>",
+                        "constraints": {
+                             "required": true,
+                             "validationMessage": "Please accept Oracle Technology Network License Agreement terms and conditions"
+                        }
+                   }
+                ],
+                "visible": true      
+            },
+            {
                 "name": "basicsRequired",
                 "type": "Microsoft.Common.Section",
                 "label": "Credentials for Virtual Machines and WebLogic",
